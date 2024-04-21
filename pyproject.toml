@@ -9,6 +9,9 @@ packages = [{include = "data_science"}]
 [tool.poetry.dependencies]
 python = "^3.10"
 numpy = "^1.26.4"
+pandas = "^2.2.2"
+lxml = "^5.2.1"
+matplotlib = "^3.8.4"
 
 
 [tool.poetry.group.dev.dependencies]
