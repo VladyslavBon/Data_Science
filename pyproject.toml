@@ -7,7 +7,7 @@ readme = "README.md"
 packages = [{include = "data_science"}]
 
 [tool.poetry.dependencies]
-python = "^3.10"
+python = ">=3.10,<3.12"
 numpy = "^1.26.4"
 pandas = "^2.2.2"
 lxml = "^5.2.1"
@@ -17,6 +17,7 @@ scikit-learn = "^1.4.2"
 scikit-surprise = "^1.1.4"
 tensorflow-io-gcs-filesystem = "^0.31.0"
 tensorflow = "^2.16.1"
+keras-tuner = "^1.4.7"
 
 [tool.poetry.group.dev.dependencies]
 ipykernel = "^6.29.4"
