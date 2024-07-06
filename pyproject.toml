@@ -18,6 +18,8 @@ scikit-surprise = "^1.1.4"
 tensorflow-io-gcs-filesystem = "^0.31.0"
 tensorflow = "^2.16.1"
 keras-tuner = "^1.4.7"
+spacy = "^3.7.5"
+nltk = "^3.8.1"
 
 [tool.poetry.group.dev.dependencies]
 ipykernel = "^6.29.4"
